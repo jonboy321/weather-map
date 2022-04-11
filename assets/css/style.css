@@ -1,0 +1,57 @@
+* {
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    background-color: skyblue;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5rem;
+}
+
+.searchBox {
+    
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+}
+
+#site-search {
+    justify-content: center;
+    width: 50%;
+    border-radius: 3pt;
+
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#search-btn {
+    font-size: 1.75rem;
+    color: white;
+    background-color: rgb(0, 165, 230);
+    width: 30%;
+
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    border-radius: 6pt;
+}
+
+#city-display {
+    border-top: solid gray;
+    border-width: 3px;
+    margin: 10pt;
+    font-size: 1.25rem;
+}
